@@ -36,6 +36,10 @@ section,
   overflow: hidden;
 }
 
+.logo {
+  width: 10rem;
+}
+
 section {
   width: 400%;
 }
