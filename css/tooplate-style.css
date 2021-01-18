@@ -128,7 +128,8 @@ ul .icon:hover {
 }
 
 #t2:target #dos {
-	color: #9f7f5f;
+  color: #9f7f5f;
+  transition:all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	-webkit-transition: all 0.2s linear;
@@ -206,7 +207,7 @@ a {
 }
 
 .page#p3 .icon {
-  	height: 700px;
+  	height: 575px;
 }
 
 .page#p4 .icon {
