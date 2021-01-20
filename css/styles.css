@@ -1,0 +1,66 @@
+.right-info {
+  margin-right: 5rem;
+}
+
+.teamMember {
+  width: 21%;
+  display: inline-block;
+  margin: 1% 2%;
+}
+.teamImgs {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.teamDescs {
+  width: 100%;
+  float: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 33%;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: green;
+}
+
+.memberPosition {
+  font-weight: bold;
+  font-size: 80%;
+}
+
+.bottom {
+  margin-bottom: 15%;
+}
+
+.onepic {
+  margin: 1% 37%;
+  width: 25%;
+}
+
+#color {
+  color: black;
+  font-size: 70%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body,
+  html {
+    overflow-y: scroll; /* has to be scroll, not auto */
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .teamDescs {
+    font-size: 25%;
+  }
+
+  .onepic {
+    width: 70%;
+    margin: 3% 15%;
+    margin-bottom: 26%;
+  }
+
+  .teamMember {
+    width: 80%;
+    margin: 0% 10%;
+    margin-bottom: 7%;
+  }
+}
