@@ -102,7 +102,6 @@ ul {
 #t2:target ul,
 #t3:target ul,
 #t4:target ul,
-#t4:target ul,
 #t5:target ul {
   background-color: rgba(48, 51, 60, 1);
 }
@@ -160,15 +159,7 @@ ul .icon:hover {
   -webkit-transition: all 0.2s linear;
 }
 
-#t4:target #cuatro {
-  color: #8575aa;
-  transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-}
-
-#t45target #test {
+#t5:target #cuatro {
   color: #8575aa;
   transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -377,7 +368,7 @@ a {
   padding-bottom: 40px;
 }
 
-#p4 .title {
+#p5 .title {
   font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
@@ -385,12 +376,12 @@ a {
   margin-bottom: 60px;
 }
 
-#p4 fieldset {
+#p5 fieldset {
   margin-top: -30px;
   margin-bottom: 15px;
 }
 
-#p4 input {
+#p5 input {
   font-family: 'Montserrat', sans-serif;
   padding-left: 15px;
   max-width: 100%;
@@ -406,12 +397,12 @@ a {
   box-shadow: none;
 }
 
-#p4 input:focus {
+#p5 input:focus {
   outline: none !important;
   box-shadow: none;
 }
 
-#p4 textarea {
+#p5 textarea {
   font-family: 'Montserrat', sans-serif;
   margin-top: 35px;
   margin-bottom: 20px;
@@ -431,12 +422,12 @@ a {
   box-shadow: none;
 }
 
-#p4 textarea:focus {
+#p5 textarea:focus {
   outline: none !important;
   box-shadow: none;
 }
 
-#p4 button {
+#p5 button {
   font-family: 'Montserrat', sans-serif;
   display: inline-block;
   padding: 15px 25px;
@@ -450,7 +441,7 @@ a {
   border: 1px solid transparent;
 }
 
-#p4 button:hover {
+#p5 button:hover {
   color: #fff;
   background-color: transparent;
   border: 1px solid #fff;
@@ -460,7 +451,7 @@ a {
   -webkit-transition: all 0.2s linear;
 }
 
-#p4 .right-info {
+#p5 .right-info {
   background-color: #fff;
   padding: 30px;
   color: #343434;
@@ -468,21 +459,21 @@ a {
   margin-bottom: 60px;
 }
 
-#p4 .right-info p em {
+#p5 .right-info p em {
   font-style: normal;
   font-weight: 500;
 }
 
-#p4 .right-info .social-icons {
+#p5 .right-info .social-icons {
   margin-top: 45px;
 }
 
-#p4 .right-info ol {
+#p5 .right-info ol {
   padding: 0;
   margin: 0;
 }
 
-#p4 .right-info i {
+#p5 .right-info i {
   margin-right: 10px;
   color: #fff;
   font-size: 15px;
@@ -495,7 +486,7 @@ a {
   line-height: 34px;
 }
 
-#p4 .right-info i:hover {
+#p5 .right-info i:hover {
   background-color: #63adcc;
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -566,20 +557,20 @@ a {
     margin-bottom: 40px;
   }
 
-  .page#p4 .icon {
+  .page#p5 .icon {
     height: auto;
     padding: 80px 0px;
   }
 
-  #p4 .right-info {
+  #p5 .right-info {
     margin-bottom: 60px;
   }
 
-  #p4 .right-info i {
+  #p5 .right-info i {
     margin-right: 0px;
   }
 
-  #p4 .right-info {
+  #p5 .right-info {
     padding: 20px;
   }
 
