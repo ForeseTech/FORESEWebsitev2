@@ -369,12 +369,12 @@ a {
   padding-bottom: 40px;
 }
 
-#p5 .title {
-  font-size: 15px;
+#p4 .title {
+  font-size: 4rem;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 300;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 #p5 fieldset {

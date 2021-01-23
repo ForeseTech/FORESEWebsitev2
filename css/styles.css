@@ -7,11 +7,13 @@
   display: inline-block;
   margin: 1% 2%;
 }
+
 .teamImgs {
   width: 100%;
   height: auto;
   float: left;
 }
+
 .teamDescs {
   width: 100%;
   float: left;
@@ -27,10 +29,6 @@
   font-size: 80%;
 }
 
-.bottom {
-  margin-bottom: 15%;
-}
-
 .onepic {
   margin: 1% 37%;
   width: 25%;
@@ -44,7 +42,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   body,
   html {
-    overflow-y: scroll; /* has to be scroll, not auto */
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
   }
 
