@@ -235,22 +235,22 @@ a {
   height: 500px; }
 
 .page#p2 .icon {
-  height: 600px; }
+  height: 500px; }
 
 .page#p3 .icon {
-  height: 575px; }
+  height: 500px; }
 
 .page#p4 .icon {
-  height: 600px; }
+  height: 500px; }
 
 .page#p5 .icon {
-  height: 600px; }
+  height: 500px; }
 
 .page#p6 .icon {
-  height: 600px; }
+  height: 500px; }
 
 .page#p7 .icon {
-  height: 570px; }
+  height: 500px; }
 
 .page#p1 .icon {
   transform: translateX(0) !important; }
@@ -377,6 +377,19 @@ a {
   padding-left: 4rem;
   width: 90%;
   text-align: left; }
+
+#p5 .title {
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 20px; }
+
+#p6 .title {
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px; }
 
 #p7 fieldset {
   margin-top: -30px;
