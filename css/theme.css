@@ -1,8 +1,8 @@
 body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 23px; }
@@ -228,14 +228,13 @@ a {
   bottom: 0;
   width: 100%;
   text-align: center;
-  font-size: 10px;
-  font-family: 'Montserrat', sans-serif; }
-
-.credit a {
-  color: #fff; }
+  font-size: 0.8rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  margin-bottom: 0; }
 
 .primary-button a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: inline-block;
   padding: 15px 25px;
   background-color: #63adcc;
@@ -334,7 +333,7 @@ a {
   margin-bottom: 15px; }
 
 #p5 input {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding-left: 15px;
   max-width: 100%;
   height: 40px;
@@ -353,7 +352,7 @@ a {
   box-shadow: none; }
 
 #p5 textarea {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-top: 35px;
   margin-bottom: 20px;
   padding-left: 15px;
@@ -376,7 +375,7 @@ a {
   box-shadow: none; }
 
 #p5 button {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: inline-block;
   padding: 15px 25px;
   background-color: #63adcc;
@@ -499,6 +498,6 @@ a {
     color: #fff;
     background: #30333c; }
   .credit {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: black;
     margin-bottom: 0px;
     padding: 8px 0px; } }
