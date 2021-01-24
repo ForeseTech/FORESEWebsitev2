@@ -160,6 +160,14 @@ ul .icon:hover {
   -webkit-transition: all 0.2s linear;
 }
 
+#t4:target #test {
+  color: #8575aa;
+  transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+
 #t5:target #cuatro {
   color: #8575aa;
   transition: all 0.2s linear;
