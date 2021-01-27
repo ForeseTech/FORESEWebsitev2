@@ -18,6 +18,40 @@
     <link rel="stylesheet" href="css/theme.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <!-- endbuild -->
+
+    <style>
+      body ::-webkit-scrollbar {
+        display: none;
+      }
+
+      .para {
+        font-size: 1.3rem;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        color: white;
+        width: 80%;
+        line-height: 200%;
+      }
+
+      #aptiTest {
+        font-size: 4rem;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-weight: 300;
+      }
+
+      .Div {
+        overflow-y: scroll;
+        position: absolute;
+        top: 100px;
+        right: 0px;
+        bottom: 30px;
+        left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
     <div id="t4">
@@ -31,7 +65,54 @@
           <a href="mocks.html#t6"><li class="icon fas fa-user-tie" id="mocks"></li></a>
           <a href="contact.html#t7"><li class="icon fas fa-phone-alt" id="cuatro"></li></a>
         </ul>
-        <div class="page" id="p4">
+
+        <span class="title" id="aptiTest">APTITUDE TEST</span>
+        <div class="Div">
+          <p class="para">
+            An aptitude test is a way for employers to assess a candidate's abilities through a variety of different
+            testing formats. By practicing the potential aptitude questions , students will not only improve their
+            knowledge but also help them to recall information at the apt time. Students could grab this golden
+            opportunity by attending the aptitude test to enhance their skills and update themselves with the latest
+            technicalities.
+            <br />
+            FORESE organizes a cognitive aptitude test for the pre-final years.
+            <br />
+            The vision behind the APTITUDE test organized by the FORESE is to fine-tune the students and sharpen their
+            skills to make them better suited according to the industry's needs.
+            <br /><br />
+            This aptitude test will help you:<br />
+            ● Assess your strengths and weaknesses.<br />
+            ● Familiarize yourself with the large pool of aptitude topics.<br />
+            ● Prepare yourself for the upcoming placement season. <br /><br />
+            The skill sets of the students are tested by examining them exclusively on these topics under 60 mins.
+            <br /><br />
+            Verbal Ability Test<br />
+            Verbal Aptitude test analyses the ability of the candidate to use written language and understand the
+            concepts presented through words. This test can assess many different abilities of a candidate, such as
+            spelling words correctly, use proper grammar and vocabulary, understand word meanings, and interpret written
+            information precisely.<br />
+            <br />Quantitative Aptitude Test<br />
+            A quantitative aptitude test or numerical aptitude test measures the ability of candidates to interpret,
+            analyze and draw logical conclusions based on numerical data. There are various types of numerical aptitude
+            test questions from various categories like basic arithmetic, advanced mathematical knowledge, numerical
+            logic, numerical reasoning, and word problems.<br />
+            <br />Non-verbal Reasoning Test<br />
+            This test involves measuring the ability of the candidates to understand and analyze information presented
+            visually and solve the problems logically. There are several types of non-verbal reasoning aptitude test
+            questions from different categories, including abstract reasoning, inductive reasoning, diagrammatic
+            reasoning, spatial ability, non-verbal analogy, and more.<br />
+          </p>
+        </div>
+      </section>
+    </div>
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>
+<!-- <div class="page" id="p4">
           <li class="icon fas fa-brain">
             <div class="container">
               <div class="row">
@@ -129,7 +210,4 @@
         </div>
 
         <p class="credit">Copyright &copy; 2021 FORESE - Designed and Developed by FORESE Tech</p>
-      </section>
-    </div>
-  </body>
-</html>
+      </section> -->
