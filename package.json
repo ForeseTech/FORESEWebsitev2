@@ -13,7 +13,7 @@
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin aptitudeTest.html -d dist --htmlmin -o dist/aptitudeTest.html && usemin groupDiscussion.html -d dist --htmlmin -o dist/groupDiscussion.html && usemin hrRequirements.html -d dist --htmlmin -o dist/hrRequirements.html",
     "copyfonts": "copyfiles -f pdf/* dist/pdf",
     "clean": "rimraf dist",
-    "build": "npm run clean && npm run imagemin && npm run usemin && npm run copyfonts"
+    "build": "npm run clean && npm run copyfonts && npm run imagemin && npm run usemin"
   },
   "repository": {
     "type": "git",
