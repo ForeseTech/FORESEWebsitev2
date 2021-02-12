@@ -9,7 +9,7 @@
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
-    "copyfiles": "copyfiles -f pdf/* dist/pdf && copyfiles -f img/* dist/img",
+    "copyfiles": "copyfiles -f pdf/* dist/pdf && copyfiles -f img/* dist/img && copyfiles -f img/members/2nd/* dist/img/members/2nd && copyfiles -f img/members/3rd/* dist/img/members/3rd && copyfiles -f img/members/4th/* dist/img/members/4th && copyfiles -f img/mockimg/* dist/img/mockimg",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin aptitudeTest.html -d dist --htmlmin -o dist/aptitudeTest.html && usemin groupDiscussion.html -d dist --htmlmin -o dist/groupDiscussion.html",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run copyfiles && npm run usemin"
