@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>HR Requirements</title>
+
+    <style>
+      body {
+        text-align: center;
+        left: 300%;
+        background-image: url(./img/contact-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 30px;
+        overflow: hidden;
+      }
+      body ::-webkit-scrollbar {
+        display: none;
+      }
+      .title {
+        font-size: 2.3rem;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        color: white;
+        margin-right: 50px;
+      }
+
+      .hrRequirements {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .examModes:visited {
+        color: #ffffff;
+      }
+
+      .examModes:hover {
+        color: lightgrey;
+      }
+
+      #back-icon {
+        cursor: pointer;
+        float: left;
+        margin-left: 50px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <i class="fa fa-angle-left" id="back-icon" onclick="goBack()" style="font-size: 36px"></i>
+
+    <div class="hrRequirements">
+      <span class="title"
+        ><a class="examModes" href="pdf/GENERAL_REQUIREMENTS.pdf" download>GENERAL REQUIREMENTS</a></span
+      ><br /><br />
+      <span class="title"
+        ><a class="examModes" href="pdf/BIOTECHNOLOGY_HR_REQUIREMENTS.pdf" download
+          >BIOTECHNOLOGY HR REQUIREMENTS</a
+        ></span
+      ><br /><br />
+      <span class="title"
+        ><a class="examModes" href="pdf/CIVIL_HR_REQUIREMENTS.pdf" download>CIVIL HR REQUIREMENTS</a></span
+      ><br /><br />
+      <span class="title"
+        ><a class="examModes" href="pdf/CSE_IT_HR_REQUIREMENTS.pdf" download>CSE/IT HR REQUIREMENTS</a></span
+      ><br /><br />
+      <span class="title"
+        ><a class="examModes" href="pdf/ECE_EEE_HR_REQUIREMENTS.pdf" download>ECE/EEE HR REQUIREMENTS</a></span
+      ><br /><br />
+      <span class="title"
+        ><a class="examModes" href="pdf/MECH_AUTO_HR_REQUIREMENTS.pdf" download>MECH/AUTO HR REQUIREMENTS</a></span
+      >
+    </div>
+
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>

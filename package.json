@@ -10,7 +10,7 @@
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
     "imagemin": "imagemin img/* -o dist/img && imagemin img/members/2nd/* -o dist/img/members/2nd && imagemin img/members/3rd/* -o dist/img/members/3rd && imagemin img/members/4th/* -o dist/img/members/4th && imagemin img/mockimg/ -o dist/img/mockimg",
-    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin aptitudeTest.html -d dist --htmlmin -o dist/aptitudeTest.html && usemin groupDiscussion.html -d dist --htmlmin -o dist/groupDiscussion.html",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin aptitudeTest.html -d dist --htmlmin -o dist/aptitudeTest.html && usemin groupDiscussion.html -d dist --htmlmin -o dist/groupDiscussion.html && usemin hrRequirements.html -d dist --htmlmin -o dist/hrRequirements.html",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run imagemin && npm run usemin"
   },
